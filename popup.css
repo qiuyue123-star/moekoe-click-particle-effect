@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Microsoft Yahei", sans-serif;
+}
+body {
+  width: 360px;
+  padding: 16px;
+  background: #1f2128;
+  color: #eee;
+}
+.container h2 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #c9a0ff;
+}
+.switch-box {
+  padding: 10px 0;
+  border-bottom: 1px solid #383a42;
+}
+.switch-label {
+  font-size: 15px;
+}
+.tips {
+  font-size: 12px;
+  color: #999;
+  margin-left: 8px;
+}
+.effect-select-box {
+  padding: 12px 0;
+  border-bottom: 1px solid #383a42;
+}
+.effect-select-box h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #ffb8d9;
+}
+.radio-item {
+  margin: 8px 0;
+  font-size: 14px;
+  padding-left: 4px;
+}
+/* 保存按钮区域样式 */
+.save-area {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#saveConfigBtn {
+  width: 100%;
+  padding: 8px 0;
+  background: #9368e9;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#saveConfigBtn:hover {
+  background: #a880f0;
+}
+#saveConfigBtn:active {
+  background: #7c54d1;
+}
+.status-tip {
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.5;
+}
+/* 状态文字颜色区分 */
+.status-wait {
+  color: #ffdd70;
+}
+.status-success {
+  color: #88e8a0;
+}
+.about-box {
+  margin-top: 12px;
+}
+.about-box h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #87ceff;
+}
+.about-box p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #ccc;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 6px;
+}
