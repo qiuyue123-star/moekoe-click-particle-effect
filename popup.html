@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>点击特效设置</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>鼠标点击特效设置</h2>
+
+    <!-- 总开关 -->
+    <div class="switch-box">
+      <label class="switch-label">启用点击特效：</label>
+      <input type="checkbox" id="effectSwitch">
+      <span class="tips">默认关闭，勾选后生效</span>
+    </div>
+
+    <!-- 特效选择 -->
+    <div class="effect-select-box">
+      <h3>选择点击效果</h3>
+      <div class="radio-item">
+        <input type="radio" name="effectType" id="opt1" value="purple-gradient">
+        <label for="opt1">渐变紫粒子</label>
+      </div>
+      <div class="radio-item">
+        <input type="radio" name="effectType" id="opt2" value="bow-pink">
+        <label for="opt2">浅粉白相间蝴蝶结</label>
+      </div>
+      <div class="radio-item">
+        <input type="radio" name="effectType" id="opt3" value="water-drop">
+        <label for="opt3">水滴</label>
+      </div>
+    </div>
+
+    <!-- 保存按钮区域 -->
+    <div class="save-area">
+      <button id="saveConfigBtn">保存配置</button>
+      <p id="statusTip" class="status-tip"></p>
+    </div>
+
+    <!-- 插件信息 -->
+    <div class="about-box">
+      <h3>关于本插件</h3>
+      <p>作者：篍约</p>
+      <p>插件版本：v1.0.0</p>
+      <p>创作时间：2026-07-14</p>
+      <p>简介：全局生效鼠标点击动画，三种唯美粒子效果自由切换，轻量化无性能负担</p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
