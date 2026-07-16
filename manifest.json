@@ -2,14 +2,14 @@
   "manifest_version": 3,
   "name": "全局鼠标点击特效",
   "plugin_id": "moekoe-click-particle-effect",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "minversion": null,
   "moekoe": true,
   "author": {
     "name": "篍约",
     "url": "https://github.com/MoeKoeMusic/moekoe-click-particle-effect"
   },
-  "description": "为MoeKoeMusic提供全局鼠标点击粒子特效插件，支持渐变紫粒子、粉白蝴蝶结、水滴三种点击动画，可自由开关切换效果",
+  "description": "为MoeKoeMusic提供全局鼠标点击粒子特效插件，支持渐变紫粒子、粉白蝴蝶结、水滴、不同颜色的音符、小柑橘、水花、渐变橙粒子七种点击动画，可自由开关切换效果",
   "permissions": ["storage"],
   "content_scripts": [
     {
